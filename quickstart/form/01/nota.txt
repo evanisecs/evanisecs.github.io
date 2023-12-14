@@ -1,0 +1,10 @@
+item do formulario
+- categoria (select - calça, vestido, bernuda, blusinha)
+-nome (input)
+-cor (select)
+-tamanho (select - p, m, g, gg , xg)
+-marca (input)
+-total (numero)
+-foto (input)
+- descrição (textarea)
+

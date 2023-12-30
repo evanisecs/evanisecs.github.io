@@ -1,0 +1,36 @@
+:root {
+    --cor-principal: rgb(38, 37, 37);
+    --cor-secundaria: rgb(24, 139, 233);
+}
+
+nav{
+    max-width: 350px;
+    width: 100%;
+    background-color: aquamarine
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0
+}
+
+nav ul li{
+    border-bottom: 1px solid #555;
+}
+
+
+
+nav ul li a{
+    background-color: var(--cor-principal);  
+  color: #fff;
+  padding: 10px;
+  display:block;
+  text-decoration: none;
+  transition: background .4s;
+
+}
+
+nav ul li a:hover{
+    background-color: var(--cor-secundaria);
+    
+}

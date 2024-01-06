@@ -34,3 +34,7 @@ nav ul li a:hover{
     background-color: var(--cor-secundaria);
     
 }
+.expand{
+    width: 100%;
+    float: left;
+}

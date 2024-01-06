@@ -32,3 +32,7 @@
     
     background-color: rgb(24, 139, 233);
 }
+.expand{
+    width: 100%;
+    float: left;
+}

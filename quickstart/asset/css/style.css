@@ -1,0 +1,12 @@
+a{ color: #04c;}
+a:hover{ color: #09c;}
+
+.fold{
+    width: 100%;
+    float: left;
+    padding: 10px 0 20px 0;
+}
+.expand {
+    width: 100%;
+    float: left;
+}

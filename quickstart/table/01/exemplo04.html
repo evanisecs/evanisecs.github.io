@@ -9,75 +9,81 @@
     <title>04 Tabela colspan</title>
 </head>
 <body>
-    <ul class="lt_x lt_x_menu">
-  <li><a href="../../">Quickstar</a></li>
-  <li><a href="index.html">exemplo01</a></li>
-  <li><a href="exemplo02.html">exemplo02</a></li>
-  <li><a href="exemplo03.html">exemplo03</a></li> 
-  <li><a href="exemplo04.html">exemplo04</a></li>
-  <li><a href="exemplo05.html">exemplo05</a></li>
-  <li><a href="exemplo06.html">exemplo06</a></li> 
-    </ul>   
-  <hr />
+    <div class="expand">
+        <ul class="lt_x lt_x_menu">
+            <li><a href="../../">Quickstar</a></li>
+            <li><a href="index.html">exemplo01</a></li>
+            <li><a href="exemplo02.html">exemplo02</a></li>
+            <li><a href="exemplo03.html">exemplo03</a></li> 
+            <li><a href="exemplo04.html">exemplo04</a></li>
+            <li><a href="exemplo05.html">exemplo05</a></li>
+            <li><a href="exemplo06.html">exemplo06</a></li> 
+              </ul>   
+    </div>
+<div class="fold">
     <h1>Tabela colspan</h1>
-   <table border="1" cellpadding="10">
+    <table border="1" cellpadding="10">
+      <tr>
+         <th colspan="5">Informações</th>
+      </tr>
+      <tr>
+       <td colspan="3">
+        <b> Razao Social</b><br />
+         cia das regatas
+     </td>
+       <td>
+         <b>Cpf/cnpj</b> <br />
+         20078828000170
+     </td>
+       <td>
+         <b>Inscriçao Estadual</b> <br />
+         0569985
+     </td>
      <tr>
-        <th colspan="5">Informações</th>
+         <td>
+             <b>Endereço:</b> <br />
+             bauru, 205
+         </td>
+         <td colspan="3">
+             <b>Bairro:</b> <br />
+             parque da matriz
+         </td> 
+         <td>
+             <b>cep:</b> <br />
+             999150010
+         </td>
      </tr>
      <tr>
-      <td colspan="3">
-       <b> Razao Social</b><br />
-        cia das regatas
-    </td>
-      <td>
-        <b>Cpf/cnpj</b> <br />
-        20078828000170
-    </td>
-      <td>
-        <b>Inscriçao Estadual</b> <br />
-        0569985
-    </td>
-    <tr>
-        <td>
-            <b>Endereço:</b> <br />
-            bauru, 205
-        </td>
-        <td colspan="3">
-            <b>Bairro:</b> <br />
-            parque da matriz
-        </td> 
-        <td>
-            <b>cep:</b> <br />
-            999150010
-        </td>
-    </tr>
-    <tr>
-        <th colspan="5">Calculo do imposto</th>
-     </tr>
-     <tr>
-        <td>
-            <b>base de calculo do IMCS</b> <br />
-            3452
-        </td>
-        <td>
-            <b>valor do ICMS</b> <br />
-            1040
-        </td>
-        <td>
-            <b>ICMS substituiçao</b> <br />
-            2530
-        </td>
-        <td>
-            <b>valor do IMCS substituiçao</b> <br />
-            4580
-        </td>
-        <td>
-            <b>total do produto</b> <br />
-            9056
-        </td>
-     </tr>
-   </table> 
-   <hr />
-   <script src="https://gist.github.com/evanisecs/89c3a8237fd1852de343acca29c0e336.js"></script>
+         <th colspan="5">Calculo do imposto</th>
+      </tr>
+      <tr>
+         <td>
+             <b>base de calculo do IMCS</b> <br />
+             3452
+         </td>
+         <td>
+             <b>valor do ICMS</b> <br />
+             1040
+         </td>
+         <td>
+             <b>ICMS substituiçao</b> <br />
+             2530
+         </td>
+         <td>
+             <b>valor do IMCS substituiçao</b> <br />
+             4580
+         </td>
+         <td>
+             <b>total do produto</b> <br />
+             9056
+         </td>
+      </tr>
+    </table>
+</div>
+     
+   <div class="fold">
+    <script src="https://gist.github.com/evanisecs/89c3a8237fd1852de343acca29c0e336.js"></script>
+   </div>
+   
 </body>
 </html>

@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../asset/css/normalize.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../asset/css/style.css" type="text/css" media="all" />
+    <title>Star six</title>
+    <style>
+        /* #3806dd */
+        #star_six{
+          width: 0;
+          height: 0;
+          border-left: 50px solid transparent;
+          border-right: 50px solid transparent;
+          border-bottom: 100px solid #3806dd;
+          position: relative;
+        }
+
+        #star_six::after{
+          width: 0;
+          height: 0;
+          border-left: 50px solid transparent;
+          border-right: 50px solid transparent;
+          border-top: 100px solid #3806dd;
+          position: absolute;
+          content: "";
+          top: 30px;
+          left: -50px;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+
+
+  <div class="expand">
+    <ul class="lt_x lt_x_menu">
+      <li><a href="../../">Quickstar</a></li>
+      <li><a href="index.html">Menu</a></li>
+      <li><a href="exemplo01.html">circle</a></li> 
+      <li><a href="exemplo02.html">triangle</a></li> 
+      <li><a href="exemplo03.html">trapezoid</a></li> 
+      <li><a href="exemplo04.html">star six</a></li>
+      <li><a href="exemplo05.html">pentagon</a></li> 
+    </ul>
+  </div>
+  <div class="fold"> <!--open example-->
+  <div class="fold">
+    <h1>star six</h1>
+    <div id="star_six"></div>
+  </div> 
+     
+     <div class="fold">
+      <script src="https://gist.github.com/evanisecs/69c9c02fc4a976cc087687035214c286.js"></script>
+     </div>
+    </div> <!--close example-->
+    
+  </div>
+</body>
+</html>

@@ -280,6 +280,11 @@ body{
     font-size: 24px;
 }
 
+.cartao__botao--compra::before{
+    content: "\e901";
+    font-size: 24px;
+}
+
 .cartao__botao--destaque{
     width: 100%;
     grid-column: span 2;
@@ -348,7 +353,6 @@ body{
         font-size: 0.9rem; 
         line-height: 1.2rem;
         font-weight: 700;
-
     }
 
     .cartao__item-perfil{

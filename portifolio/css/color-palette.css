@@ -1,0 +1,15 @@
+.tx_prm { color: #c00}
+.tx_scn { color: #09c}
+.tx_drk { color: #060}
+.tx_lgt { color: #ff0}
+.tx_stn { color: #ccc}
+.tx_blc { color: #000}
+.tx_wht { color: #fff}
+
+.bg_prm { color:#fff; background: #c00 }
+.bg_scn { color:#fff; background: #09c }
+.bg_drk { color:#fff; background: #060 }
+.bg_lgt { color:#000; background: #ff0 }
+.bg_stn { color: #000; background: #ccc } 
+.bg_blc { color: #fff; background: #000 }
+.bg_wht { color: #000; background: #fff }

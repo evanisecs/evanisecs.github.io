@@ -1,12 +1,3 @@
-:root{
-    --prm: #09c;
-    --scn: #c00;
-    --drk: #060;
-    --stn: #ccc;
-    --blc: #000;
-    --wht: #fff;
-}
-
 
 .bg_prm { background: var(--prm)}
 .bg_scn { background: var(--scn)}

@@ -32,7 +32,7 @@ footer{
 
 .part3{margin: 0;}
 
-@media (max-width: 760px)
+@media (max-width: 990px)
 {
     .container{
         grid-template-columns: 100%;
@@ -58,9 +58,8 @@ footer{
 
 } 
 
-@media (max-width: 660px)
+@media (max-width: 770px)
 {
-    body{ margin: 0 15px;}
     .part1, .part2, .part3{
         width: 100%;
     }

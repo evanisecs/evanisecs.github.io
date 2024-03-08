@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.box{
+    width: 100%;
+    float: left;
+    margin: 0 10px 10px 0;
+    text-align: left;
+}
+
+.box{grid-area: box;}
+
+
+@media (min-width: 768px)
+    {
+        .box{width: 48%}
+    }
+    
+.box{min-height: 200px;}
+
+@media (min-width: 768px)
+{
+    .box{width: 48%}
+}
+
+@media (min-width: 968px)
+{
+    .box{width: 28%}
+}
+
+@media (min-width: 1280px)
+{
+    .box{width: 23%}
+}

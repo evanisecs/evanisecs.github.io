@@ -1,5 +1,9 @@
 *{margin: 0; padding: 0}
 
+h1,h2,h3{
+    margin: 0;
+}
+
 .container{
     width: 94%;
     margin: 0 auto;
@@ -14,6 +18,25 @@
 
 .box{grid-area: box;}
 
+img{max-width: 100%;}
+
+.expand{
+    width: 100%;
+    float: left;
+}
+
+.box .title, .box .description{
+    margin: 5px 0;
+}
+
+.box .title h1{
+    color: #333;
+    font-size: 20px;
+}
+
+.box .description{
+    color: #666;
+}
 
 @media (min-width: 768px)
     {

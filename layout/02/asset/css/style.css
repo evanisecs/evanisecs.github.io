@@ -5,9 +5,8 @@ p{text-align: center; margin: 5px 0}
     width: 94%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: 100px 450px 150px;
-    grid-template-areas: "header header" "section sidebar" "footer footer"
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "section" "sidebar" "footer"
 }
 
 header{grid-area: header}
@@ -16,55 +15,66 @@ aside{grid-area: sidebar}
 footer{grid-area: footer}
 
 footer{
-    grid-area: footer;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap
 }
 
-.part1, .par2, part3{
-    width: 25%;
+.part1, .part2, .part3{
+    width: 100%;
+    border-bottom: 2px solid #fff
 }
 
 .part2{
-    width: 50%;
-    margin: 0 2px;
+    order: initial;
 }
 
-.part3{margin: 0;}
+header{min-height: 100px;}
+section{min-height: 450px;}
+aside{min-height: 450px;}
+footer{min-height: 150px;}
 
-@media (max-width: 990px)
+@media (min-width: 768px)
 {
-    .container{
-        grid-template-columns: 100%;
-        grid-template-areas: "header" "section" "sidebar" "footer";
-    }
-
-    footer{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .part1, .part2, .part3{
         width: 49.6%;
         border: 1px solid #fff;
-        margin: 0;
+        margin: 0
     }
 
     .part2{
         width: 100%;
-        order: -1;
+        order: -1
     }
 
+}
 
-} 
-
-@media (max-width: 770px)
+@media (min-width: 1024px)
 {
-    .part1, .part2, .part3{
-        width: 100%;
+    .container{
+        width: 94%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 100px 450px 150px;
+        grid-template-areas: "header header" "section sidebar" "footer footer"
+    }
+
+    footer{
+        grid-area: footer;
+        display: flex;
+        flex-wrap: initial;
+        justify-content: space-evenly
+    }
+
+    .part1, .par2, part3{
+        width: 25%;
     }
 
     .part2{
-        order: initial;
+        width: 50%;
+        margin: 0 2px;
+        order: initial
     }
+
+    .part3{margin: 0;}
 }

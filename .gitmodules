@@ -2,3 +2,6 @@
 	path = portifolio/jogo-da-forca
 	url = https://github.com/evanisecs/jogo-da-forca.git
 	branch = main
+[submodule "portifolio/mini-game-mario"]
+	path = portifolio/mini-game-mario
+	url = https://github.com/evanisecs/mini-game-mario.git

@@ -1,45 +1,65 @@
-a{ color: #04c;}
-a:hover{ color: #09c;}
+*{margin: 0; padding: 0}
 
-.fold{
+a{color: #09c;}
+a:hover{color: #06c;}
+
+.none{
+    display: none;
+}
+
+main{
+    width: 94%;
+    margin: 0 auto;
+}
+
+header, footer{
+    width: 100%;
+    height: 100px;
+    float: left;   
+}
+
+.box header{
+    height: auto;
+}
+
+.box{
     width: 100%;
     float: left;
-    padding: 10px 0 20px 0;
-}
-.expand {
-    width: 100%;
-    float: left;
+    margin: 0 10px 10px 0;
+    text-align: left;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto
+.box ul {
+    list-style-type: none;
 }
 
-.lt_x_menu{
-    margin: 0;
-    padding: 0;
+.box{min-height: 200px;} /* remover ctrl+shift+k*/
+
+.lk_prm li a, .lk_prm dd a{
+    color: var(--prm);
+    text-decoration: none;
 }
-.lt_x li{
-    margin-right: 10px;
-    display: inline;
-    float: left;
-  }
 
-  .lt_x_menu li:after{
-      content: '|';
-      margin-left: 10px;
-  }
+.lk_prm li a:hover, .lk_prm dd a:hover{
+    color: var(--hv-prm);
+}
 
-  .lt_x_menu li:last-child::after{
-      content: '';
-      margin-left: 0;
-  }
+@media (min-width: 768px)
+{
+    .box{width: 48%;}
+}
 
-  .lt_y {
-     list-style-type:none;
-  }
-  
-  .lt_y li{
-    margin-bottom: 5px;
-  }
+@media (min-width: 768px) 
+{
+    .box{width: 48%;}
+}
+
+@media (min-width: 968px)
+{
+    .box{width: 31.4%;}
+}
+
+@media (min-width: 1280px)
+{
+    .box{width: 23.1%;}
+}

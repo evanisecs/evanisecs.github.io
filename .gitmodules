@@ -8,3 +8,6 @@
 [submodule "quickstart/menu/seattle"]
 	path = quickstart/menu/seattle
 	url = https://github.com/evanisecs/menu-seattle.git
+[submodule "quickstart/menu/paris"]
+	path = quickstart/menu/paris
+	url = https://github.com/evanisecs/menu-paris.git

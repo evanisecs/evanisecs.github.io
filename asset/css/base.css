@@ -18,3 +18,18 @@
 .tx_blc { color: var(--blc)}
 .tx_wht { color: var(--wht)}
 
+.lk_prm { color: var(--prm)}
+.lk_scn { color: var(--scn)}
+.lk_drk { color: var(--drk)}
+.lk_lgt { color: var(--lgt)}
+.lk_stn { color: var(--stn)}
+.lk_blc { color: var(--blc)}
+.lk_wht { color: var(--wht)}
+
+.lk_prm:hover { color: var(--hv-prm)}
+.lk_scn:hover { color: var(--hv-scn)}
+.lk_drk:hover { color: var(--hv-drk)}
+.lk_lgt:hover { color: var(--hv-lgt)}
+.lk_stn:hover { color: var(--hv-stn)}
+.lk_blc:hover { color: var(--hv-blc)}
+.lk_wht:hover { color: var(--hv-wht)}
